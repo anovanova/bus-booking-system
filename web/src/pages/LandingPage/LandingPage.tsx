@@ -1,8 +1,6 @@
 import { Link, routes } from '@redwoodjs/router'
 import { Metadata } from '@redwoodjs/web'
 
-import Button from '../../components/Button'
-
 const LandingPage = () => {
   return (
     <>
@@ -14,10 +12,12 @@ const LandingPage = () => {
             This system helps you to book a bus to your destination!
           </p>
           <div className="h-44 grid place-content-center">
-            <Button
-              buttonText={'Book Now!'}
-              classText={'btn btn-lg btn-primary m-auto'}
-            />
+            <Link
+              to={routes.personalInformation()}
+              className="btn btn-lg btn-primary m-auto"
+            >
+              Book Now!
+            </Link>
           </div>
         </div>
       </div>
