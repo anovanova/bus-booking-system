@@ -28,8 +28,10 @@ const PersonalInformationPage = () => {
             <TextField name="middleName" className="input input-bordered" />
             <label htmlFor="lastName">Lastname:</label>
             <TextField name="lastName" className="input input-bordered" />
-            <label htmlFor="address">Address:</label>
-            <TextField name="address" className="input input-bordered" />
+            <label htmlFor="emailAddress">Email Address:</label>
+            <TextField name="emailAddress" className="input input-bordered" />
+            <label htmlFor="contactNumber">Contact Number:</label>
+            <TextField name="contactNumber" className="input input-bordered" />
             <Submit className="btn btn-lg btn-primary m-auto mt-8">Next</Submit>
           </Form>
         </div>
