@@ -13,8 +13,8 @@ const PersonalInformationPage = () => {
         description="PersonalInformation page"
       />
 
-      <div className="h-screen grid">
-        <div className="lg:w-1/3 w-full p-4 m-auto">
+      <div className="grid h-screen">
+        <div className="m-auto w-full p-4 lg:w-1/3">
           <div className="m-10">
             <h1 className="text-center text-4xl font-bold">
               Personal Information
